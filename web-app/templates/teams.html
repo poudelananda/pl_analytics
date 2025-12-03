@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Team Analytics</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body style="margin:40px;">
+    <h1>Team Analytics</h1>
+
+    <form method="POST" action="/teams">
+        <label>Team Name:</label>
+        <input type="text" name="team" required>
+        <button type="submit">Analyze</button>
+    </form>
+
+    <br><br>
+
+    {% if chart_html %}
+        {{ chart_html | safe }}
+    {% endif %}
+</body>
+</html>

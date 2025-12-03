@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Player Analytics</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+</head>
+
+<body style="margin:40px;">
+    <h1>Player Analytics</h1>
+
+    <form method="POST" action="/player">
+        <label>Player Name:</label>
+        <input type="text" name="player" required>
+        <button type="submit">Analyze</button>
+    </form>
+    
+
+    <br><br>
+
+    {% if chart_html %}
+        {{ chart_html | safe }}
+    {% endif %}
+</body>
+</html>

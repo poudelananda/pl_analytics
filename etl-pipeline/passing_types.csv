@@ -1,0 +1,33 @@
+Player,#,Nation,Pos,Age,Min,Att,live_ball_passes,dead_ball_passes,free_kick_passes,through_balls,switches,crosses,throw_ins,corner_kicks,inswinging_corner,outswinging_corner,straight_corner,passes_completed,passes_offside,passes_blocked,team,opponent,match_id,opposition
+João Pedro,20.0,br BRA,FW,24-008,74,13,12,1,0,0,0,1,0,0,0,0,0,8,0,1,Chelsea,Liverpool,780d534e,Liverpool
+Marc Guiu,38.0,es ESP,FW,19-273,16,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,Chelsea,Liverpool,780d534e,Liverpool
+Alejandro Garnacho,49.0,ar ARG,LW,21-095,74,23,23,0,0,0,0,2,0,0,0,0,0,20,0,0,Chelsea,Liverpool,780d534e,Liverpool
+Jamie Gittens,11.0,eng ENG,LW,21-057,16,7,7,0,0,0,0,0,0,0,0,0,0,6,0,1,Chelsea,Liverpool,780d534e,Liverpool
+Pedro Neto,7.0,pt POR,RW,25-209,74,25,17,8,2,0,0,6,4,2,1,0,0,18,0,0,Chelsea,Liverpool,780d534e,Liverpool
+Estêvão Willian,41.0,br BRA,RW,18-163,16,18,14,4,0,1,0,3,0,4,1,0,0,13,0,1,Chelsea,Liverpool,780d534e,Liverpool
+Enzo Fernández,8.0,ar ARG,AM,24-260,90,48,44,3,1,0,0,2,0,1,1,0,0,36,1,0,Chelsea,Liverpool,780d534e,Liverpool
+Moisés Caicedo,25.0,ec ECU,DM,23-336,90,51,51,0,0,0,0,0,0,0,0,0,0,45,0,0,Chelsea,Liverpool,780d534e,Liverpool
+Malo Gusto,27.0,fr FRA,"DM,RB",22-138,90,63,56,6,0,0,0,2,6,0,0,0,0,53,1,2,Chelsea,Liverpool,780d534e,Liverpool
+Marc Cucurella,3.0,es ESP,LB,27-074,90,54,52,2,0,0,0,3,2,0,0,0,0,45,0,0,Chelsea,Liverpool,780d534e,Liverpool
+Benoît Badiashile,5.0,fr FRA,CB,24-192,54,48,44,4,1,0,0,0,0,0,0,0,0,45,0,0,Chelsea,Liverpool,780d534e,Liverpool
+Roméo Lavia,45.0,be BEL,DM,21-271,36,19,19,0,0,0,0,0,0,0,0,0,0,17,0,0,Chelsea,Liverpool,780d534e,Liverpool
+Joshua Acheampong,34.0,eng ENG,CB,19-152,67,45,43,2,1,0,0,0,0,0,0,0,0,35,0,1,Chelsea,Liverpool,780d534e,Liverpool
+Jorrel Hato,21.0,nl NED,CB,19-211,23,17,14,3,1,0,0,0,0,0,0,0,0,16,0,0,Chelsea,Liverpool,780d534e,Liverpool
+Reece James,24.0,eng ENG,"RB,CB",25-300,90,67,59,8,3,0,0,1,5,0,0,0,0,55,0,0,Chelsea,Liverpool,780d534e,Liverpool
+Robert Sánchez,1.0,es ESP,GK,27-320,90,56,49,7,1,0,0,0,0,0,0,0,0,37,0,0,Chelsea,Liverpool,780d534e,Liverpool
+Alexander Isak,9.0,se SWE,FW,26-013,73,21,20,1,0,1,0,1,1,0,0,0,0,14,0,1,Chelsea,Chelsea,780d534e,Liverpool
+Hugo Ekitike,22.0,fr FRA,FW,23-106,17,6,5,1,0,0,0,0,0,0,0,0,0,5,0,0,Chelsea,Chelsea,780d534e,Liverpool
+Cody Gakpo,18.0,nl NED,LW,26-150,90,39,38,1,0,1,0,3,0,1,1,0,0,28,0,1,Chelsea,Chelsea,780d534e,Liverpool
+Mohamed Salah,11.0,eg EGY,RW,33-111,90,26,24,2,0,2,0,3,2,0,0,0,0,17,0,2,Chelsea,Chelsea,780d534e,Liverpool
+Dominik Szoboszlai,8.0,hu HUN,"RB,AM",24-344,90,49,36,12,2,0,0,2,9,0,0,0,0,39,1,1,Chelsea,Chelsea,780d534e,Liverpool
+Alexis Mac Allister,10.0,ar ARG,DM,26-284,85,36,33,3,2,0,0,0,0,0,0,0,0,27,0,0,Chelsea,Chelsea,780d534e,Liverpool
+Wataru Endo,3.0,jp JPN,DM,32-237,5,4,4,0,0,0,0,0,0,0,0,0,0,3,0,0,Chelsea,Chelsea,780d534e,Liverpool
+Ryan Gravenberch,38.0,nl NED,"DM,CB",23-141,90,58,58,0,0,0,0,0,0,0,0,0,0,52,0,0,Chelsea,Chelsea,780d534e,Liverpool
+Milos Kerkez,6.0,hu HUN,LB,21-331,54,25,21,4,0,1,0,1,4,0,0,0,0,21,0,0,Chelsea,Chelsea,780d534e,Liverpool
+Andrew Robertson,26.0,sct SCO,LB,31-207,36,17,15,2,0,2,0,1,2,0,0,0,0,12,0,0,Chelsea,Chelsea,780d534e,Liverpool
+Virgil van Dijk,4.0,nl NED,CB,34-088,90,60,57,3,2,0,0,0,0,0,0,0,0,54,0,0,Chelsea,Chelsea,780d534e,Liverpool
+Ibrahima Konaté,5.0,fr FRA,CB,26-132,55,41,37,4,1,0,0,0,0,0,0,0,0,38,0,0,Chelsea,Chelsea,780d534e,Liverpool
+Curtis Jones,17.0,eng ENG,DM,24-247,35,20,20,0,0,0,0,0,0,0,0,0,0,20,0,0,Chelsea,Chelsea,780d534e,Liverpool
+Conor Bradley,12.0,nir NIR,RB,22-087,45,25,18,7,1,1,0,0,5,1,0,0,0,22,0,1,Chelsea,Chelsea,780d534e,Liverpool
+Florian Wirtz,7.0,de GER,AM,22-154,45,18,15,2,1,0,0,0,1,0,0,0,0,12,1,1,Chelsea,Chelsea,780d534e,Liverpool
+Giorgi Mamardashvili,25.0,ge GEO,GK,25-005,90,52,44,8,2,0,0,0,0,0,0,0,0,42,0,0,Chelsea,Chelsea,780d534e,Liverpool

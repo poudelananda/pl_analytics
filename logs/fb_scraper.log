@@ -1,0 +1,8 @@
+========================================
+Run started: Mon Nov  3 20:53:27 EST 2025
+Traceback (most recent call last):
+  File "/Users/m33210/Desktop/Anandas Documents/AP Projects/soccer_analytics/etl-pipeline/fb_scraper.py", line 24, in <module>
+    for row in fixtures_table.find_all("tr"):
+AttributeError: 'NoneType' object has no attribute 'find_all'
+Run FAILED with exit code 1 at Mon Nov  3 20:53:30 EST 2025
+
