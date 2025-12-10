@@ -52,6 +52,58 @@ def get_primary_positions():
 
     return primary_pos_df
 
+def overall_team_stats():
+    query = """
+        select a.Team, a.Opponent, a.Sh, a.SoT
+        from summary a
+    """
+    with sqlite3.connect(db_path) as conn:
+        df = pd.read_sql_query(query, conn)
+
+    df["Sh"] = pd.to_numeric(df["Sh"], errors="coerce")
+    df = df.dropna(subset=["Sh"])
+
+    total_shots_for_df = (
+        df.groupby(["opponent"])["Sh"]
+        .agg(["mean", "sum"])
+        .reset_index()
+        .rename(columns={
+            "mean": "avg_shots",
+            "sum": "total_shots"
+        })
+    )
+    avg_shots_for_df = (
+        df.groupby(["opponent", "team"])["Sh"]
+        .agg(["mean", "sum"])
+        .reset_index()
+        .rename(columns={
+            "mean": "avg_shots",
+            "sum": "total_shots"
+        })
+    )
+
+    total_shots_against_df = (
+        df.groupby(["team"])["Sh"]
+        .agg(["mean", "sum"])
+        .reset_index()
+        .rename(columns={
+            "mean": "avg_shots",
+            "sum": "total_shots"
+        })
+    )
+    avg_shots_against_df = (
+        df.groupby(["team", "opponent"])["Sh"]
+        .agg(["mean", "sum"])
+        .reset_index()
+        .rename(columns={
+            "mean": "avg_shots",
+            "sum": "total_shots"
+        })
+    )
+
+    return shots_for_df, shots_against_df
+
+
 
 def get_team_stats(team_name):
     query = """

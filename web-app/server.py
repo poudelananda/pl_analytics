@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request
 import plotly.express as px
-from sql_analytic.sql_queries import get_player_stats, get_team_stats
+from sql_analytic.sql_queries import get_player_stats, get_team_stats, overall_team_stats
 import pandas as pd
 
 app = Flask(__name__)
@@ -83,6 +83,42 @@ def teams_tab():
             title=f"{team} — Avg Shots Conceded By Position"
         )
 
+
+        chart_html = (
+            fig1.to_html(full_html=False) +
+            "<hr><br>" +
+            fig2.to_html(full_html=False) +
+            "<hr><br>" +
+            fig3.to_html(full_html=False) +
+            "<hr><br>" +
+            fig4.to_html(full_html=False)
+        )
+    else:
+        total_shots_for, total_shots_against = overall_team_stats()
+        fig1 = px.bar(
+            total_shots_for,
+            x="opponent",
+            y="total_shots",
+            title=f"Total Shots Against Opponent"
+        )
+        fig2 = px.bar(
+            total_shots_for,
+            x="opponent",
+            y="avg_shots",
+            title=f"Average Shots Against Opponent"
+        )
+        fig3 = px.bar(
+            total_shots_against,
+            x="team",
+            y="total_shots",
+            title=f"Total Shots Conceded"
+        )
+        fig4 = px.bar(
+            total_shots_against,
+            x="team",
+            y="total_shots",
+            title=f"Average Shots Conceded"
+        )
 
         chart_html = (
             fig1.to_html(full_html=False) +
